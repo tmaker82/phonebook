@@ -14,7 +14,7 @@ const Documentation = () => {
 
                         <h5>Getting Started</h5>
                         <p>
-                            Sakai is an application template for React based on the popular <a href="https://nextjs.org/" className="font-medium hover:underline">NextJS</a> framework. To get started, clone the <a href="https://github.com/primefaces/sakai-react" className="font-medium hover:underline">repository</a> from 
+                            PhoneBook is an application template for React based on the popular <a href="https://nextjs.org/" className="font-medium hover:underline">NextJS</a> framework. To get started, clone the <a href="https://github.com/primefaces/sakai-react" className="font-medium hover:underline">repository</a> from
                             GitHub and install the dependencies with npm or yarn.
                         </p>
                         <CodeHighlight>
@@ -24,7 +24,7 @@ const Documentation = () => {
                         </CodeHighlight>
 
                         <p>
-                            Next step is running the application using the start script and navigate to <b>http://localhost:3000/</b> to view the application. That is it, you may now start with the development of your application using the Sakai
+                            Next step is running the application using the start script and navigate to <b>http://localhost:3000/</b> to view the application. That is it, you may now start with the development of your application using the PhoneBook
                             template.
                         </p>
 
@@ -35,7 +35,7 @@ const Documentation = () => {
                         </CodeHighlight>
 
                         <h5>Dependencies</h5>
-                        <p>Dependencies of Sakai are listed below and needs to be defined at package.json.</p>
+                        <p>Dependencies of PhoneBook are listed below and needs to be defined at package.json.</p>
 
                         <CodeHighlight lang="js">
                         {`
@@ -47,7 +47,7 @@ const Documentation = () => {
                         </CodeHighlight>
 
                         <h5>Structure</h5>
-                        <p>Sakai consists of a couple folders, demos and core has been separated so that you can easily remove what is not necessary for your application.</p>
+                        <p>PhoneBook consists of a couple folders, demos and core has been separated so that you can easily remove what is not necessary for your application.</p>
                         <ul class="line-height-3">
                             <li><span class="text-primary font-medium">layout</span>: Main layout files, needs to be present</li>
                             <li><span class="text-primary font-medium">demo</span>: Contains demo related utilities and helpers</li>
@@ -63,14 +63,14 @@ const Documentation = () => {
 
                         <h5>Integration with Existing NextJS Applications</h5>
                         <p>Only the folders that are related to the layout needs to move in to your project. We've created a short tutorial with details.</p>
-                        
+
                         <div className={styles['video-container']}>
                             <iframe className={styles['video']} width="560" height="315" src="https://www.youtube.com/embed/jnm0_U6zJFY" frameborder="0" allowfullscreen></iframe>
                         </div>
 
                         <h5>PrimeReact Theme</h5>
                         <p>
-                            Sakai theming is based on the PrimeReact theme being used. Default theme is <b>lara-light-indigo</b>.
+                            PhoneBook theming is based on the PrimeReact theme being used. Default theme is <b>lara-light-indigo</b>.
                         </p>
 
                         <h5>SASS Variables</h5>
@@ -82,9 +82,9 @@ const Documentation = () => {
                         <CodeHighlight lang="scss">
                         {`
 /* General */
-$scale:14px;                    /* initial font size */ 
-$borderRadius:12px;             /* border radius of layout element e.g. card, sidebar */ 
-$transitionDuration:.2s;        /* transition duration of layout elements e.g. sidebar */ 
+$scale:14px;                    /* initial font size */
+$borderRadius:12px;             /* border radius of layout element e.g. card, sidebar */
+$transitionDuration:.2s;        /* transition duration of layout elements e.g. sidebar */
 `}
                         </CodeHighlight>
                     </div>

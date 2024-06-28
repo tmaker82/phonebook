@@ -1,5 +1,5 @@
 {
-    "name": "sakai-react",
+    "name": "phonebook-react",
     "version": "8.0.0-SNAPSHOT",
     "private": false,
     "scripts": {

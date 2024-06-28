@@ -107,7 +107,7 @@ const Layout = (props) => {
         <React.Fragment>
             <Head>
                 <base href={contextPath}></base>
-                <title>Sakai React with NextJS</title>
+                <title>SPhoneBook</title>
                 <meta charSet="UTF-8" />
                 <link rel="icon" href={`${contextPath}/favicon.ico`} type="image/x-icon"></link>
             </Head>
